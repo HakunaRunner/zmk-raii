@@ -104,9 +104,9 @@
 
         nav {
             bindings = <
-              &none     &msc SCRL_LEFT  &none           &msc SCRL_RIGHT  &kp PRINTSCREEN       &kp CAPSLOCK     &mkp MB4  &mkp MB3  &mkp MB5   &none
-              &none     &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN   &kp C_BRIGHTNESS_INC  &kp C_VOLUME_UP  &mkp MB1  &kp UP    &mkp MB2   &none
-              &kp HOME  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp C_BRIGHTNESS_DEC  &kp C_VOL_DN     &kp LEFT  &kp DOWN  &kp RIGHT  &kp END
+              &none        &msc SCRL_LEFT  &none           &msc SCRL_RIGHT  &kp PRINTSCREEN       &kp CAPSLOCK     &mkp MB4  &mkp MB3  &mkp MB5   &none
+              &kp PAGE_UP  &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN   &kp C_BRIGHTNESS_INC  &kp C_VOLUME_UP  &mkp MB1  &kp UP    &mkp MB2   &kp PAGE_DOWN
+              &kp HOME     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp C_BRIGHTNESS_DEC  &kp C_VOL_DN     &kp LEFT  &kp DOWN  &kp RIGHT  &kp END
                                                         &trans           &trans                &trans           &trans
             >;
         };
